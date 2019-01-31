@@ -1,7 +1,13 @@
 import React, { Component, Fragment } from 'react';
+import PropTypes from 'prop-types';
 import './Movie.css';
 
 class Movie extends Component {
+    static propTypes = {
+        title : PropTypes.string,
+        poster : PropTypes.string
+    }
+    
     render(){
         const { title, poster } = this.props;
         return (
@@ -17,7 +23,7 @@ class MoviePoster extends Component {
     render() {
         const { poster } = this.props;
         return(
-            <img src={poster} />
+            <img src={poster} alt={'movie_image'} />
         );
     }
 }
