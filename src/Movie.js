@@ -7,6 +7,14 @@ class Movie extends Component {
         title : PropTypes.string,
         poster : PropTypes.string
     }
+
+    componentDidMount() {
+        setTimeout(() => {
+            this.setState({
+                greeting : '안녕히가세요'
+            });
+        }, 5000);
+    }
     
     render(){
         const { title, poster } = this.props;
