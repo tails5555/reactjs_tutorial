@@ -52,3 +52,7 @@ componentWillUnmount()
 ```
 
 컴포넌트가 더 이상 필요하지 않을 때 실행 되는 함수입니다. 여기서는 `setTimeout()`, `setInterval()` 등의 함수로 타이머를 설정하다가 이들을 없애는 `clearTimeout()` 함수를 이용할 때, Redux 에서 데이터에 대한 초기화 액션 등을 실행할 때 사용되는 함수 입니다.
+
+## Author
+
+- 강인성([tails5555](https://github.com/tails5555))

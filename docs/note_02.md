@@ -74,3 +74,7 @@ Local 은 말 그대로 `localhost`(127.0.0.1) 주소입니다.
 Own Network 주소는 내 PC 의 네트워크 IP 주소입니다.
 
 참고로 JavaScript 문장 내의 변경 과정이 이뤄지면 `react-scripts` 에서 이를 인지하고 난 후에 새로고침을 합니다.
+
+## Author
+
+- 강인성([tails5555](https://github.com/tails5555))

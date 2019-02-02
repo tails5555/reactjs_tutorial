@@ -77,3 +77,7 @@ React.js 와 관련된 커뮤니티와 오픈소스, Stack Overflow 질의 응�
 React.js 는 Ruby, Python, Java 등의 언어로 RESTful API 를 만드면 자유롭게 사용할 수 있습니다.
 
 React.js 는 참고로 User Interface Library 입니다. View 에 있는 UI 의 사용 빈도가 크면 이 라이브러리를 사용하는 것을 권장합니다.
+
+## Author
+
+- 강인성([tails5555](https://github.com/tails5555))

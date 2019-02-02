@@ -51,3 +51,7 @@ class ContactElement extends Component {
 
 export default ContactElement;
 ```
+
+## Author
+
+- 강인성([tails5555](https://github.com/tails5555))
