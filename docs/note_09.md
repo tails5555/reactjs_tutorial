@@ -10,8 +10,7 @@ Component 안에서 필요한 데이터는 항상 존재하진 않습니다.
 
 컴포넌트에서는 언제든지 새로운 데이터를 쓰고 난 뒤에 새로운 `state` 를 받으면 기존에 있던 `state` 를 버리고 프로퍼티 별로 새로운 값을 덮어 씁니다.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RMW6wBruQwc?start=325" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
+[![TandJ](https://img.youtube.com/vi/RMW6wBruQwc/0.jpg)](https://www.youtube.com/embed/RMW6wBruQwc?start=325)
 
 그래서 `state` 에 초기 값을 설정을 해 두고 변경이 되게 설정하거나 생명 주기 함수를 통해 새로운 `state` 값을 덮어 쓰게 만들거나 둘 중 하나의 작업이 이뤄져야 합니다.
 
