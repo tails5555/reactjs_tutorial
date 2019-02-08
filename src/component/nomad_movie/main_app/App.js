@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
+
+import Movie from 'component/nomad_movie/movie_elem/Movie';
 import './App.css';
-import Movie from './Movie';
 
 class App extends PureComponent {
   state = {
